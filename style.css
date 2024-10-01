@@ -1,0 +1,417 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-image: url('./photo/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg');
+    background-position: top;
+    background-size: cover;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.495);
+    text-align: center;
+}
+
+.nav a{
+    text-decoration: none;
+    padding-inline: 50px;
+    line-height: 70px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    transition: 0.8s;
+
+}
+
+.nav a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    border-radius:20px;
+    background-color: red;
+    top: 30px;
+    left: 38px;
+    transition: 0.8s;
+
+}
+
+.nav a:hover::after{
+    width: 60%;
+    transition: 0.8s;
+}
+
+.img12{
+    width: 40%;
+    height: 45%;
+    transform: translate(200px,150px); 
+}
+
+.img12 a{
+    padding: 14px;
+    padding-inline: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.gy9{
+    width: 40%;
+    height: 80%;
+    transform: translate(100px,50px);
+}
+
+.po1{
+    padding: 10px;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.po2 a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-inline: 25px;
+    border-radius: 30px;
+    background-color: #F1AE0E;
+}
+.lpw1{
+    width: 35%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #99E54D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.po2{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img12 a:hover{
+    background-color: #f1ad0ea7;
+}
+.qw{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.qw1{
+    width: 70%;
+    height: 290px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.q1{
+    width: 30%;
+    height: 285px;
+    border-radius: 50px;
+    background-image: url(./photo/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.5);
+}
+.q12{
+    background-image: url('./photo/q1.jpeg');
+}
+.q123{
+    background-image: url('./photo/q2.jpg');
+}
+.qw1 h2{
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+}
+.df0{
+    display: flex;
+    justify-content: center;
+}
+.df1{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.k8{
+    width: 48%;
+    height: inherit;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.ty6{
+    width: 70%;
+    height: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.ty7{
+    margin-right: 150px;
+}
+.l1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imm8{
+    width: 80%;
+    height: 80%;
+   background-image: url('./photo/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables.jpg');
+   background-position: center;
+   background-size: cover;
+   border-radius: 50px;
+}
+.mm9{
+    background-image: url('./photo/th_4.jpg');
+}
+.fg4{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fg5{
+    width: 70%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lp1{
+    width: 30%;
+    height: 290px;
+    border-radius: 50px;
+    background-image: url('./photo/e1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ip2{
+    background-image: url(./photo/e2.jpeg);
+}
+.ip3{
+    background-image: url(./photo/e3.jpg);
+}
+.bl1{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.gh1{
+    color: white;
+    width: 70%;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.er1{
+  width: 40%;
+  height: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ilo1{
+    width: 80%;
+    height: 75%;
+    border-radius:50px;
+    background-image: url('./photo/t1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.ilo39{
+    background-image: url(./photo/t2.jpg);
+}
+
+.ilo2{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.ilo2 a{
+    text-decoration: none;
+    padding: 10px;
+    padding-inline: 15px;
+    background-color: rgb(153,229,77);
+    border-radius: 20px;
+    color: black;
+    font-size: 12px;
+}
+
+.ilo2 a:hover{
+    background-color: rgb(175, 227, 124);
+}
+
+.ilo40{
+  background-image: url(./photo/gt1.jpg);
+}
+
+.ilo41{
+  background-image: url(./photo/gt2.jpg);  
+}
+
+.iol17{
+    background-image: url('./photo/fresh-salad-with-turkey-eggs-vegetables.jpg');
+}
+
+.foo{
+    width: 100%;
+    height: 600px;
+    background-color: #F1AE0E;
+    background-image: url('./photo/vegetables-set-left-black-slate.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.ert{
+    width: 50%;
+    height: 450px;
+    color: white;
+    /* transform: scale(1.1); */
+    transform: translate(150px,50px);
+}
+
+.ert1{
+    width: 100%;
+    height: 45%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.illp{
+    width: 26%;
+    height: 97%;
+    background-color: #99E54D;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -100px;
+}
+
+.er{
+   width: 100%;
+   height: 10%; 
+}
+
+.ert2{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dty1{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.ert2 input{
+    width: 55%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.ert2 a{
+    width: 25%;
+    height: 100%;
+    background-color: #99E54D;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.vgr{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vgr1{
+    width: 70%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vgt{
+    width: 30%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+
+.iio{
+    width: 30%;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #99E54D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
